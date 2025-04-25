@@ -49,7 +49,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
       {/* Sidebar */}
       <div className="flex flex-1">
-        <aside className="w-72 bg-[#2F4F4F] text-white h-screen overflow-y-auto p-6 rounded-tr-3xl rounded-bl-3xl shadow-2xl transition-all duration-300 ease-in-out">
+        <aside className="w-72 bg-[#163bb7] text-white h-screen overflow-y-auto p-6 rounded-tr-3xl rounded-bl-3xl shadow-2xl transition-all duration-300 ease-in-out">
           {activeTab === 'dashboard' ? (
             blueMenuItems.map((item, index) => {
               const slug = item.toLowerCase().replace(/\s+/g, '-').replace(/[()]/g, '');
