@@ -65,8 +65,7 @@ export default function LoginPage() {
                 style={{
                   backgroundColor: '#F9F9F9',
                   borderColor: '#D8C5A4',
-                  color: '#4A4A4A',
-                  focusRingColor: '#8DADC7'
+                  color: '#4A4A4A'
                 }}
                 placeholder="Enter your username"
                 required
@@ -89,8 +88,7 @@ export default function LoginPage() {
                   style={{
                     backgroundColor: '#F9F9F9',
                     borderColor: '#D8C5A4',
-                    color: '#4A4A4A',
-                    focusRingColor: '#8DADC7'
+                    color: '#4A4A4A'
                   }}
                   placeholder="Enter your password"
                   required
